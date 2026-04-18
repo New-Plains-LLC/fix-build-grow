@@ -1,0 +1,69 @@
+baseURL: "https://fixbuildgrow.com/"
+languageCode: "en-us"
+title: "Fix Build Grow"
+enableRobotsTXT: true
+timezone: "America/Chicago"
+summaryLength: 24
+pagination:
+  pagerSize: 9
+
+params:
+  description: "Visual DIY guides, project galleries, tool comparisons, and cost estimators for first-time homeowners and rural property owners."
+  brand:
+    name: "Fix Build Grow"
+    tagline: "Practical DIY projects, clearer budgets, better tool choices."
+  audience:
+    - "First-time homeowners"
+    - "Rural property owners"
+    - "Budget-focused renovators"
+  featuredSections:
+    - tutorials
+    - galleries
+    - estimators
+    - comparisons
+  primaryCTA:
+    title: "Explore starter projects"
+    url: "/tutorials/"
+  secondaryCTA:
+    title: "Compare top tools"
+    url: "/comparisons/"
+  social:
+    github: "https://github.com/Buddy-NewPlains/fix-build-grow"
+
+menu:
+  main:
+    - name: "Tutorials"
+      pageRef: "/tutorials"
+      weight: 10
+    - name: "Project Galleries"
+      pageRef: "/galleries"
+      weight: 20
+    - name: "Cost Estimators"
+      pageRef: "/estimators"
+      weight: 30
+    - name: "Tool Comparisons"
+      pageRef: "/comparisons"
+      weight: 40
+    - name: "Blog"
+      pageRef: "/blog"
+      weight: 50
+
+taxonomies:
+  category: categories
+  tag: tags
+  difficulty: difficulties
+  tool: tools
+  project_type: project_types
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    endLevel: 3
+    startLevel: 2
+
+outputs:
+  home:
+    - HTML
+    - RSS

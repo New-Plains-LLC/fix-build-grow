@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container prose">
+    <div class="eyebrow">Tool Comparison</div>
+    <h1>{{ .Title }}</h1>
+    <p class="lede">{{ .Params.summary }}</p>
+    {{ with .Params.featured_image }}<img src="{{ . }}" alt="{{ $.Title }}">{{ end }}
+    {{ .Content }}
+    {{ with .Params.comparison_table }}
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Product</th><th>Best for</th><th>Price band</th><th>Why it stands out</th></tr></thead>
+        <tbody>
+          {{ range . }}<tr><td>{{ .product }}</td><td>{{ .best_for }}</td><td>{{ .price }}</td><td>{{ .note }}</td></tr>{{ end }}
+        </tbody>
+      </table>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,73 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="kicker">Home Improvement & DIY</div>
+      <h1>Fix smarter, build cleaner, spend less.</h1>
+      <p class="lede">Visual step-by-step guides, side-by-side tool picks, and practical budget planning for first-time homeowners, acreage owners, and budget-minded renovators.</p>
+      <div class="button-row">
+        <a class="button" href="{{ site.Params.primaryCTA.url }}">{{ site.Params.primaryCTA.title }}</a>
+        <a class="button secondary" href="{{ site.Params.secondaryCTA.url }}">{{ site.Params.secondaryCTA.title }}</a>
+      </div>
+      <div class="chip-row">
+        {{ range site.Params.audience }}<span class="chip">{{ . }}</span>{{ end }}
+      </div>
+    </div>
+    <div class="hero-panel">
+      <img src="/images/workbench-hero.svg" alt="DIY workbench illustration">
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container stat-grid">
+    <div class="stat"><strong>Evergreen traffic</strong><p class="meta">Seasonal maintenance, repair guides, and project calculators stack into durable SEO clusters.</p></div>
+    <div class="stat"><strong>Affiliate-ready pages</strong><p class="meta">Comparison tables and materials lists are designed to support high-intent product clicks.</p></div>
+    <div class="stat"><strong>Visual-first templates</strong><p class="meta">Project galleries, printable checklists, and photo-rich tutorials work well on mobile and on-site.</p></div>
+  </div>
+</section>
+
+{{ range site.Params.featuredSections }}
+  {{ $section := . }}
+  {{ $pages := first 3 (where site.RegularPages "Section" $section) }}
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Featured {{ humanize $section }}</div>
+          <h2>{{ humanize $section }}</h2>
+        </div>
+        <a href="/{{ $section }}/">See all</a>
+      </div>
+      <div class="card-grid">
+        {{ range $pages }}{{ partial "card.html" . }}{{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}
+
+<section class="section">
+  <div class="container split-grid">
+    <div class="card card-body">
+      <div class="eyebrow">Monetization lanes</div>
+      <h3>Revenue-friendly structure from day one</h3>
+      <ul>
+        <li>Tool comparison pages with top-pick callouts</li>
+        <li>Cost estimator pages that naturally lead into materials and services</li>
+        <li>Tutorials with downloadable shopping lists and checklists</li>
+        <li>Gallery pages for before/after inspiration and lead magnets</li>
+      </ul>
+    </div>
+    <div class="card card-body">
+      <div class="eyebrow">Content operations</div>
+      <h3>Easy to automate next</h3>
+      <ul>
+        <li>Front matter built for project cost, time, difficulty, and materials</li>
+        <li>Section templates for tutorials, comparisons, estimators, and galleries</li>
+        <li>Netlify-ready deployment config and Hugo-friendly content model</li>
+        <li>GitHub workflow stub ready for preview and production build checks</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{ end }}

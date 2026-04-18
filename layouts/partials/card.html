@@ -1,0 +1,15 @@
+<article class="card">
+  <a href="{{ .RelPermalink }}">
+    <img src="{{ with .Params.featured_image }}{{ . }}{{ else }}/images/placeholder.svg{{ end }}" alt="{{ .Title }}">
+    <div class="card-body">
+      <div class="eyebrow">{{ humanize .Section }}</div>
+      <h3>{{ .Title }}</h3>
+      <p class="meta">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 120 }}{{ end }}</p>
+      <div class="chip-row">
+        {{ with .Params.difficulty }}<span class="chip">{{ . }}</span>{{ end }}
+        {{ with .Params.estimated_time }}<span class="chip">{{ . }}</span>{{ end }}
+        {{ with .Params.estimated_cost }}<span class="chip">{{ . }}</span>{{ end }}
+      </div>
+    </div>
+  </a>
+</article>

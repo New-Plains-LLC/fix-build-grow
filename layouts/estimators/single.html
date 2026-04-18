@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container split-grid">
+    <article class="prose">
+      <div class="eyebrow">Cost Estimator</div>
+      <h1>{{ .Title }}</h1>
+      <p class="lede">{{ .Params.summary }}</p>
+      {{ .Content }}
+      {{ with .Params.assumptions }}
+      <div class="notice">
+        <strong>Estimator assumptions</strong>
+        <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+      </div>
+      {{ end }}
+    </article>
+    <aside class="card card-body">
+      <div class="eyebrow">Budget ranges</div>
+      <ul>
+        {{ range .Params.range_breakdown }}<li><strong>{{ .label }}:</strong> {{ .value }}</li>{{ end }}
+      </ul>
+    </aside>
+  </div>
+</section>
+{{ end }}

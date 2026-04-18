@@ -1,0 +1,34 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container split-grid">
+    <article class="prose">
+      <div class="eyebrow">{{ humanize .Section }}</div>
+      <h1>{{ .Title }}</h1>
+      <p class="lede">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Description }}{{ end }}</p>
+      <div class="chip-row">
+        {{ with .Params.difficulty }}<span class="chip">Difficulty: {{ . }}</span>{{ end }}
+        {{ with .Params.estimated_time }}<span class="chip">Time: {{ . }}</span>{{ end }}
+        {{ with .Params.estimated_cost }}<span class="chip">Budget: {{ . }}</span>{{ end }}
+      </div>
+      {{ with .Params.featured_image }}<img src="{{ . }}" alt="{{ $.Title }}">{{ end }}
+      {{ .Content }}
+    </article>
+    <aside>
+      <div class="card card-body">
+        <div class="eyebrow">Project snapshot</div>
+        <h3>What you'll need</h3>
+        <ul>
+          {{ range .Params.tools_required }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        {{ with .Params.cta_url }}<a class="button" href="{{ . }}">{{ $.Params.cta_label | default "Download the checklist" }}</a>{{ end }}
+      </div>
+      {{ with .Params.materials }}
+      <div class="card card-body" style="margin-top:1rem;">
+        <div class="eyebrow">Materials</div>
+        <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+      </div>
+      {{ end }}
+    </aside>
+  </div>
+</section>
+{{ end }}
