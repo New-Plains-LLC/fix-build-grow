@@ -44,26 +44,27 @@
 
 ## Phase 2: Content Strategy & Subagent Setup (Week 2)
 
-### 2.1 Content Strategy Development
-- [ ] **Task:** Define content pillars and topics
-- [ ] **Deliverable:** Content calendar template and topic database
-- [ ] **Success Criteria:** 6-month content plan with 3-5 content pillars
-- [ ] **Time:** 2 days
-- **Status:** ▢ Not Started
+### 2.1 Content Strategy Development ✅ COMPLETED
+- [x] **Task:** Define Phase 2 content pillars and first-page priorities
+- [x] **Deliverable:** `docs/phase-2-content-roadmap.md` with prioritized first 20 pages and production workflow
+- [x] **Success Criteria:** 4 publishing waves and 5 practical repair clusters defined
+- [x] **Time:** 1 day
+- **Status:** ✅ Completed
 - **Owner:** Buddy
 - **Priority:** High
 
-### 2.2 OpenClaw Content Creation Subagent
+### 2.2 OpenClaw Content Creation Subagent 🔄 READY TO IMPLEMENT
 - [ ] **Task:** Create dedicated content creation subagent using OpenClaw
 - [ ] **Components:**
   - Content generation subagent with specialized prompts
   - Topic research and content strategy automation
   - Automated content formatting and optimization
   - Quality control and approval workflow
+  - Explicit use of the `seo-fundamentals` skill for content-writing subagents
 - [ ] **Deliverable:** Content creation subagent system
-- [ ] **Success Criteria:** Subagent generates 3-5 quality articles per week
+- [ ] **Success Criteria:** Subagent generates 3-5 quality articles per week in approved clusters
 - [ ] **Time:** 3 days
-- **Status:** ▢ Not Started
+- **Status:** 🔄 Ready to Implement
 - **Owner:** Buddy
 - **Priority:** High
 
@@ -74,6 +75,7 @@
   - Content scheduling and publishing
   - Performance monitoring and optimization
   - Error handling and recovery
+  - Image-generation workflow using `Gemini-3-pro-image-preview`
 - [ ] **Deliverable:** Site maintenance subagent system
 - [ ] **Success Criteria:** Subagent handles all site operations with minimal oversight
 - [ ] **Time:** 2 days
@@ -219,9 +221,9 @@
 
 ## Progress Tracking
 
-**Overall Progress:** 8% (2/25 tasks completed)
+**Overall Progress:** 12% (3/25 tasks completed)
 **Phase 1 Progress:** 67% (2/3 tasks completed)
-**Phase 2 Progress:** 0% (0/4 tasks completed)
+**Phase 2 Progress:** 25% (1/4 tasks completed)
 **Phase 3 Progress:** 0% (0/3 tasks completed)
 **Phase 4 Progress:** 0% (0/3 tasks completed)
 **Phase 5 Progress:** 0% (0/3 tasks completed)
@@ -236,4 +238,4 @@
 ---
 
 *Last Updated: 2026-04-18*  
-*Next Priority: 1.1 Niche Selection & Market Research*
+*Next Priority: 2.2 OpenClaw Content Creation Subagent*
