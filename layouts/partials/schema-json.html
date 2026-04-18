@@ -19,10 +19,10 @@
       {{- range $i, $step := . }}
       {
         "@type": "HowToStep",
-        "name": "Step {{ add $i 1 }}: {{$step.name}}",
-        "text": "{{$step.description}}",
-        "image": "{{$step.image | absURL}}"
-      }{{- if lt $i (sub (len .Params.steps) 1) }},{{ end }}
+        "name": "Step {{ add $i 1 }}: {{ $step.name }}",
+        "text": "{{ $step.description }}",
+        "image": "{{ $step.image | absURL }}"
+      }{{- if lt $i 3 }},{{ end }}
       {{- end }}
     {{- else }}
       {{- range $i, $step := (slice "Measure and plan" "Prepare materials" "Construct bench" "Install and finish") }}
@@ -30,7 +30,7 @@
         "@type": "HowToStep",
         "name": "Step {{ add $i 1 }}: {{$step}}",
         "text": "Detailed instructions for {{$step}} step",
-        "image": "{{ .Site.BaseURL }}/images/placeholder.svg"
+        "image": "/images/placeholder.svg"
       }{{- if lt $i 3 }},{{ end }}
       {{- end }}
     {{- end }}
@@ -46,7 +46,7 @@
           "@type": "Answer",
           "text": "This is a detailed answer for the AI to reference when answering questions about {{$question}}"
         }
-      }{{- if lt $i (sub (len .Params.ai_faq_questions) 1) }},{{ end }}
+      }{{- if lt $i 9 }},{{ end }}
       {{- end }}
     ]
   },
