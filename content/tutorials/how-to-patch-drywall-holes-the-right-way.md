@@ -27,19 +27,19 @@ ai_faq_questions: [
 steps:
   - name: "Identify the hole type"
     description: "Choose the right repair method based on the hole size and edge condition."
-    image: "/images/placeholder.svg"
+    image: "/images/how-to-patch-drywall-1.jpg"
   - name: "Prep the damaged area"
     description: "Trim loose paper, square the opening if needed, and clean dust from the wall."
-    image: "/images/placeholder.svg"
+    image: "/images/how-to-patch-drywall-2.jpg"
   - name: "Install the patch"
     description: "Use spackle for tiny holes, a mesh patch for small damage, or a drywall insert for larger openings."
-    image: "/images/placeholder.svg"
+    image: "/images/how-to-patch-drywall-3.jpg"
   - name: "Apply compound in thin coats"
     description: "Feather each coat wider than the last so the repair blends into the surrounding wall."
-    image: "/images/placeholder.svg"
+    image: "/images/how-to-patch-drywall-4.jpg"
   - name: "Sand, prime, and paint"
     description: "Smooth the patch lightly, seal it with primer, and finish with matching paint."
-    image: "/images/placeholder.svg"
+    image: "/images/how-to-patch-drywall-5.jpg"
 ---
 ## The short answer
 The right way to patch a drywall hole is to match the repair method to the hole size, build up compound in thin coats, and always prime before painting. Small nail holes can be fixed with spackle, but larger holes need a patch or drywall insert so the repair does not crack, sink, or flash through the paint later.

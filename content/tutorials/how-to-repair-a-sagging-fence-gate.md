@@ -28,16 +28,16 @@ ai_faq_questions: [
 steps:
   - name: "Find the real cause of the sag"
     description: "Check the hinges, frame, latch side gap, and post alignment before buying parts."
-    image: "/images/placeholder.svg"
+    image: "/images/how-to-repair-fence-gate-1.jpg"
   - name: "Support the gate and tighten hardware"
     description: "Lift the gate to the correct position and secure loose hinges or fasteners."
-    image: "/images/placeholder.svg"
+    image: "/images/how-to-repair-fence-gate-2.jpg"
   - name: "Reinforce the gate frame"
     description: "Add an anti-sag kit or diagonal brace if the frame is racked or flexing."
-    image: "/images/placeholder.svg"
+    image: "/images/how-to-repair-fence-gate-3.jpg"
   - name: "Test swing, clearance, and latch alignment"
     description: "Make final adjustments so the gate opens cleanly and closes without forcing."
-    image: "/images/placeholder.svg"
+    image: "/images/how-to-repair-fence-gate-4.jpg"
 ---
 ## The short answer
 A sagging fence gate usually needs one of three fixes: tighten or replace the hinge hardware, add proper bracing to a gate frame that has gone out of square, or address a leaning or rotted post. Start by figuring out which part is actually moving. If the post is failing, no amount of hinge tweaking will hold for long.
