@@ -4,7 +4,7 @@ date: 2026-04-18
 draft: false
 description: "Remove failing bathroom caulk, clean the joint, and apply a new mildew-resistant bead that actually seals out water."
 summary: "A practical beginner guide to re-caulking a tub or shower without making a bigger mess or trapping moisture behind the wall."
-featured_image: "/images/how-to-fix-peeling-caulk-around-a-bathtub-or-shower-hero.jpg"
+featured_image: "/images/how-to-fix-peeling-caulk-hero.jpg"
 categories: ["bathroom", "sealants"]
 tags: ["caulk", "bathtub", "shower", "bathroom repair", "waterproofing"]
 difficulty: "beginner"
