@@ -1,7 +1,7 @@
-# AI Optimization Strategy (GEO) for Fix Build Grow
+# AI Optimization Strategy (GEO) for firsthomefix.com
 
 ## Overview
-This document outlines the comprehensive AI optimization strategy for the Fix Build Grow website, designed to maximize content citation potential across AI platforms while adapting to the changing AI landscape.
+This document outlines the comprehensive AI optimization strategy for the firsthomefix.com website, designed to maximize content citation potential across AI platforms while adapting to the changing AI landscape.
 
 ## Core Principles
 

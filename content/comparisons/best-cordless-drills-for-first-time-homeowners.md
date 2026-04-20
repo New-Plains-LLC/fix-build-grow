@@ -4,7 +4,7 @@ date: 2026-04-18
 draft: false
 description: "A practical drill comparison for first-time homeowners who want a dependable tool for everyday projects."
 summary: "Compares approachable cordless drills by use case, budget, and long-term flexibility."
-featured_image: "/images/drill.svg"
+featured_image: "/images/best-cordless-drills-for-first-time-homeowners-hero.jpg"
 categories: ["tools"]
 tags: ["drill", "comparison", "homeowner tools"]
 difficulty: "buyer guide"

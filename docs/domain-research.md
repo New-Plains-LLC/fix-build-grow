@@ -6,6 +6,10 @@
 **Method:** SEO analysis, GEO targeting, name recognition evaluation  
 **Focus:** Home Improvement & DIY website for first-time homeowners, rural property owners, budget renovators
 
+## Decision
+**Selected domain:** `firsthomefix.com`  
+`firsthomefix.com` is the chosen domain for this project and should point to this site.
+
 ## Domain Recommendations
 
 ### 🏆 Primary Recommendation: FirstHomeFix.com
@@ -178,10 +182,12 @@
 - Strong commercial potential
 - Excellent memorability and trust factor
 
+**Implementation Status:** Selected for this project
+
 **Next Steps:**
-1. Register FirstHomeFix.com immediately
+1. Point FirstHomeFix.com to Netlify for this site
 2. Prepare for Netlify import using provided instructions
-3. Integrate domain with Hugo-based static site
+3. Confirm Hugo base URL and canonical links use `https://firsthomefix.com/`
 4. Launch and begin content creation
 
 *Last Updated: 2026-04-18*  

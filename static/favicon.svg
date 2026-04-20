@@ -1,0 +1,29 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="14" x2="110" y2="114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8EE"/>
+      <stop offset="1" stop-color="#F2E2CF"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="27" y1="22" x2="92" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D97932"/>
+      <stop offset="1" stop-color="#A8531B"/>
+    </linearGradient>
+    <linearGradient id="tool" x1="34" y1="72" x2="94" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F6F4F"/>
+      <stop offset="1" stop-color="#214A36"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="128" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#1F2933" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="10" y="10" width="108" height="108" rx="26" fill="url(#bg)"/>
+  </g>
+  <path d="M25 60.5L64 27L103 60.5" stroke="url(#roof)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36 61C36 57.134 39.134 54 43 54H85C88.866 54 92 57.134 92 61V88C92 91.866 88.866 95 85 95H43C39.134 95 36 91.866 36 88V61Z" fill="#FFFDF9"/>
+  <rect x="57" y="71" width="14" height="24" rx="7" fill="#D97932"/>
+  <path d="M76 54V41C76 38.7909 77.7909 37 80 37H84C86.2091 37 88 38.7909 88 41V54" fill="#C28A5A"/>
+  <path d="M48 67.5C47.6748 66.1991 48.6582 64.9448 49.9976 64.9448H54.6924C55.6136 64.9448 56.4184 65.5641 56.6538 66.4545L59.5256 77.3234L70.0509 66.0008C70.5078 65.5093 71.1488 65.2294 71.8195 65.2294H77.6667C79.3054 65.2294 80.2843 67.0487 79.3845 68.4181L73.5358 77.3153C73.0471 78.0585 73.0441 79.0169 73.5286 79.762L77.2981 85.5596C78.1859 86.9241 77.205 88.7319 75.5733 88.7319H71.2513C70.4535 88.7319 69.7097 88.3317 69.2693 87.6678L66.5029 83.4958L62.4559 88.0384C61.9973 88.5533 61.3396 88.8484 60.6489 88.8484H56.7117C55.7761 88.8484 54.9617 88.2116 54.7379 87.3141L48 67.5Z" fill="url(#tool)"/>
+  <path d="M84.5 78C90.5803 77.9392 94.824 80.0897 96.803 84.1529C92.2397 85.0828 88.6521 83.5444 86.182 80.1409" stroke="#72A37F" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M86.5 83C89.0361 83.0349 91.3893 84.2528 92.9725 86.3" stroke="#72A37F" stroke-width="3" stroke-linecap="round"/>
+</svg>

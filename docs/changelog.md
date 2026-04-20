@@ -2,6 +2,14 @@
 
 All notable changes to the Automated Revenue Website project will be documented in this file.
 
+## [2026-04-20] - Domain Set to FirstHomeFix.com and Homepage Simplified
+
+### Changed
+- **Primary Domain:** Recorded `firsthomefix.com` as the domain for this project
+- **Site Config:** Updated Hugo `baseURL` to `https://firsthomefix.com/`
+- **Documentation:** Updated project docs to treat `firsthomefix.com` as the live domain for this site
+- **Homepage:** Removed strategy-oriented stat cards that were not aligned with DIY repair content
+
 ## [2026-04-18] - Hugo Scaffold and GitHub Repo Created
 
 ### Added

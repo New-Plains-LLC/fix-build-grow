@@ -4,7 +4,7 @@ date: 2026-04-18
 draft: false
 description: "Estimate budget ranges for common deck repairs before you commit to a contractor or DIY plan."
 summary: "A template for high-intent estimator content tied to materials, tools, and service referrals."
-featured_image: "/images/deck.svg"
+featured_image: "/images/deck-repair-cost-estimator-hero.jpg"
 categories: ["outdoor structures"]
 tags: ["deck repair", "budget", "calculator"]
 difficulty: "planning"

@@ -1,6 +1,6 @@
-baseURL: "https://fixbuildgrow.com/"
+baseURL: "https://firsthomefix.com/"
 languageCode: "en-us"
-title: "Fix Build Grow"
+title: "firsthomefix.com"
 enableRobotsTXT: true
 timezone: "America/Chicago"
 summaryLength: 24
@@ -10,8 +10,8 @@ pagination:
 params:
   description: "Visual DIY guides, project galleries, tool comparisons, and cost estimators for first-time homeowners and rural property owners."
   brand:
-    name: "Fix Build Grow"
-    tagline: "Practical DIY projects, clearer budgets, better tool choices."
+    name: "firsthomefix.com"
+    tagline: "Practical DIY repairs, clear budgets, and smarter tool choices."
   audience:
     - "First-time homeowners"
     - "Rural property owners"
@@ -29,6 +29,7 @@ params:
     url: "/comparisons/"
   social:
     github: "https://github.com/Buddy-NewPlains/fix-build-grow"
+    logo: "/images/logo.svg"
 
 menu:
   main:

@@ -1,6 +1,10 @@
-# Fix Build Grow
+# firsthomefix.com
 
 Home Improvement & DIY site scaffolded for Netlify + Hugo, built around visual tutorials, project galleries, cost estimators, and tool comparisons.
+
+## Project domain
+- **Production domain:** `https://firsthomefix.com/`
+- **Note:** `firsthomefix.com` is the live domain for this project.
 
 ## Stack
 - **Static site generator:** Hugo

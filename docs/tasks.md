@@ -34,13 +34,14 @@
   - **Alternative:** RuralHomeFix.com (for rural property niche)
   - **Backup:** BuildGrowHome.com (broader brand umbrella)
 - [ ] **Domain Research:** SEO-optimized, GEO-targeted, brandable names identified
+- [x] **Domain Selected:** `firsthomefix.com` is the chosen domain for this project/site
 - [ ] **Deliverable:** Registered domain with Netlify integration
 - [ ] **Success Criteria:** Professional-looking website with consistent branding
 - [ ] **Time:** 1 day
 - [ ] **Status:** 🔄 In Progress
 - [ ] **Owner:** Shawn
 - [ ] **Priority:** High
-- [ ] **Next Step:** Register FirstHomeFix.com (or preferred alternative)
+- [ ] **Next Step:** Point `firsthomefix.com` to Netlify and complete SSL setup
 
 ## Phase 2: Content Strategy & Subagent Setup (Week 2)
 

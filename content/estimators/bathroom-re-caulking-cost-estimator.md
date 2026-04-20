@@ -77,5 +77,6 @@ Hiring out may be smarter when appearance matters a lot, the enclosure is large 
 
 ## Internal links you may also want
 - [How to Fix Peeling Caulk Around a Bathtub or Shower](/tutorials/how-to-fix-peeling-caulk-around-a-bathtub-or-shower/)
+- [Best Caulk for Bathrooms, Windows, and Exterior Trim](/comparisons/best-caulk-for-bathrooms-windows-and-exterior-trim/)
 - [How to Reseal Drafty Windows Without Replacing Them](/tutorials/how-to-reseal-drafty-windows-without-replacing-them/)
 - [Drywall Repair Cost Estimator](/estimators/drywall-repair-cost-estimator/)
