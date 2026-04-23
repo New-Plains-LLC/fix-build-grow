@@ -17,7 +17,7 @@ All notable changes to the Automated Revenue Website project will be documented 
 - **Visual Templates:** Created homepage, list, single, estimator, and comparison layouts tailored to DIY content
 - **Starter Content:** Added example pages for mudroom tutorial, fire pit gallery, deck repair estimator, drill comparison, and seasonal maintenance
 - **Netlify Config:** Added `netlify.toml` with Hugo build settings and deploy-ready environment values
-- **GitHub Repo:** Created `https://github.com/Buddy-NewPlains/fix-build-grow`
+- **GitHub Repo:** Created `https://github.com/New-Plains-LLC/fix-build-grow`
 - **Build Validation:** Added GitHub Actions build workflow and verified local Hugo production build
 - **Netlify Handoff Notes:** Added `docs/netlify-setup.md` with import settings and remaining manual step
 

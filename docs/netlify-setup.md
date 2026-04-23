@@ -1,4 +1,4 @@
-# Netlify Setup Notes
+# Vercel Hosting Documentation
 
 ## Current status
 - Hugo site scaffold is ready.

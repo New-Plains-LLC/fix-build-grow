@@ -15,7 +15,7 @@
 ### 1.2 Platform Selection & Setup ✅ COMPLETED
 - [x] **Task:** Choose modern static site platform with GitHub integration
 - [x] **Platform Selection:** Netlify + Hugo static site generator
-- [x] **Repository Created:** https://github.com/Buddy-NewPlains/fix-build-grow
+- [x] **Repository Created:** https://github.com/New-Plains-LLC/fix-build-grow
 - [x] **Templates Built:** Visual-friendly templates for tutorials, galleries, estimators, comparisons
 - [x] **Configuration:** Netlify config, Hugo setup, GitHub Actions workflow
 - [x] **Niche Considerations:** Home Improvement content benefits from visual presentation and fast load times
