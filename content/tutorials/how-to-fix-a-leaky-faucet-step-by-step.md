@@ -4,7 +4,7 @@ date: 2026-04-19
 draft: false
 description: "Learn how to fix a leaky faucet yourself with our comprehensive step-by-step guide. Save money on plumber bills and stop that annoying drip."
 summary: "Complete guide to fixing leaky faucets in kitchen and bathrooms"
-featured_image: "/images/leaky-faucet-fix-hero.jpg"
+featured_image: "/images/leaky-faucet-hero.jpg"
 categories: ["plumbing", "kitchen", "bathroom"]
 tags: ["faucet", "leak", "plumbing", "DIY", "repair"]
 difficulty: "beginner"

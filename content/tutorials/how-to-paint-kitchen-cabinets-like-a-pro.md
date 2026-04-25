@@ -4,7 +4,7 @@ date: 2026-04-19
 draft: false
 description: "Transform your kitchen with professional-quality cabinet painting. Our step-by-step guide covers preparation, painting techniques, and finishing for a durable, beautiful result."
 summary: "Professional kitchen cabinet painting guide with pro tips for perfect results"
-featured_image: "/images/kitchen-cabinet-painting-hero.jpg"
+featured_image: "/images/paint-cabinets-hero.jpg"
 categories: ["painting", "kitchen", "home improvement"]
 tags: ["cabinets", "painting", "kitchen", "DIY", "renovation"]
 difficulty: "intermediate"

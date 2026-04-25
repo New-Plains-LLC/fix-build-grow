@@ -4,7 +4,7 @@ date: 2026-04-19
 draft: false
 description: "Transform your kitchen with a beautiful tile backsplash. Our step-by-step guide covers planning, installation, and finishing for professional results."
 summary: "Complete kitchen backsplash tile installation guide with pro tips"
-featured_image: "/images/kitchen-backsplash-tile-hero.jpg"
+featured_image: "/images/backsplash-hero.jpg"
 categories: ["kitchen", "tile", "renovation"]
 tags: ["backsplash", "tile", "kitchen", "DIY", "renovation"]
 difficulty: "intermediate"

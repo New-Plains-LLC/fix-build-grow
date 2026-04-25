@@ -4,7 +4,7 @@ date: 2026-04-19
 draft: false
 description: "Learn how to replace a toilet yourself with our comprehensive guide. Save money on plumber bills and update your bathroom with confidence."
 summary: "Complete toilet replacement guide with plumbing tips and installation advice"
-featured_image: "/images/toilet-replacement-hero.jpg"
+featured_image: "/images/replace-toilet-hero.jpg"
 categories: ["bathroom", "plumbing", "renovation"]
 tags: ["toilet", "plumbing", "bathroom", "DIY", "renovation"]
 difficulty: "intermediate"
