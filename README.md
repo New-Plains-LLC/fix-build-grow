@@ -8,7 +8,7 @@ Home Improvement & DIY site scaffolded for Netlify + Hugo, built around visual t
 
 ## Stack
 - **Static site generator:** Hugo
-- **Hosting:** Netlify
+- **Hosting:** Vercel
 - **Source control:** GitHub
 - **Build command:** `npx hugo --gc --minify`
 
@@ -28,10 +28,10 @@ npm install
 npm run dev
 ```
 
-## Netlify settings
-- **Base directory:** `automated-revenue-website` if deploying from the workspace monorepo, otherwise repo root
+## Vercel settings
+- **Root directory:** `automated-revenue-website` if deploying from the workspace monorepo, otherwise repo root
 - **Build command:** `npx hugo --gc --minify`
-- **Publish directory:** `public`
+- **Output directory:** `public`
 
 ## Included starter templates
 - Visual homepage with niche-specific CTA blocks
@@ -42,6 +42,6 @@ npm run dev
 
 ## Next recommended moves
 1. Replace SVG placeholders with original project imagery
-2. Add Netlify Forms for quote requests or newsletter capture
+2. Add Vercel Edge Functions or Serverless Functions for quote requests or newsletter capture
 3. Connect affiliate modules into comparison and tutorial templates
 4. Add search, schema markup, and internal-link automation
