@@ -363,6 +363,7 @@ th, td { padding:.85rem 1rem; border-bottom:1px solid var(--border); text-align:
   .section-head { align-items: flex-start; flex-direction: column; }
   .footer-stack { align-items: flex-start; flex-direction: column; }
   .brand-logo { height: 44px; }
+  .brand-copy { display: none; }
   .hero { padding: 2rem 0 1.5rem; }
   .button-row { flex-direction: column; }
   .button { width: 100%; text-align: center; }
