@@ -47,4 +47,4 @@ All new articles are complete with:
 - SEO metadata
 
 ## Ready for Deployment:
-The site has been built and includes all new content. Waiting for your approval to deploy to Netlify production to avoid unnecessary AI credit charges.
+The site is live on Vercel via GitHub auto-deploy. All new content is pushed to the main branch and Vercel deploys automatically.

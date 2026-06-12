@@ -384,3 +384,35 @@ th, td { padding:.85rem 1rem; border-bottom:1px solid var(--border); text-align:
   .nav { gap: .5rem; }
   .brand-logo { height: 36px; }
 }
+
+/* ── Shortcodes ── */
+.shortcode-warning,
+.shortcode-callout {
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: calc(var(--radius) - 6px);
+  border-left: 4px solid;
+  background: var(--surface);
+}
+.shortcode-warning {
+  border-left-color: #d9534f;
+  background: #fef2f2;
+}
+.shortcode-warning strong {
+  color: #c0392b;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+.shortcode-callout {
+  border-left-color: var(--brand);
+  background: #fefaf5;
+}
+.shortcode-callout strong {
+  color: var(--brand-dark);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+.shortcode-warning p,
+.shortcode-callout p {
+  margin: 0;
+}

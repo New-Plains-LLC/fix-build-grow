@@ -1,6 +1,6 @@
 # firsthomefix.com
 
-Home Improvement & DIY site scaffolded for Netlify + Hugo, built around visual tutorials, project galleries, cost estimators, and tool comparisons.
+Home Improvement & DIY site scaffolded for Vercel + Hugo, built around visual tutorials, project galleries, cost estimators, and tool comparisons.
 
 ## Project domain
 - **Production domain:** `https://firsthomefix.com/`
