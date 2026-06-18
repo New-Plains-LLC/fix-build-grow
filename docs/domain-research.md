@@ -130,8 +130,8 @@
 
 ### Step 3: Domain Integration Plan
 **Technical Setup:**
-- Point DNS to Netlify after import
-- Configure SSL certificates
+- Point DNS to hosting provider after import
+- Configure SSL certificates (auto-managed by Vercel)
 - Set up domain forwarding if needed
 - Monitor analytics for domain performance
 
@@ -185,11 +185,11 @@
 **Implementation Status:** Selected for this project
 
 **Next Steps:**
-1. Point FirstHomeFix.com to Netlify for this site
-2. Prepare for Netlify import using provided instructions
+1. Point FirstHomeFix.com to Vercel for this site (already done)
+2. Vercel auto-deploys from GitHub `main` branch
 3. Confirm Hugo base URL and canonical links use `https://firsthomefix.com/`
 4. Launch and begin content creation
 
-*Last Updated: 2026-04-18*  
+*Last Updated: 2026-06-17*  
 **Research Method:** SEO analysis, GEO targeting, name recognition evaluation  
-**Next Action:** Domain registration and Netlify import
+**Next Action:** Domain is configured — Vercel serving at `firsthomefix.com`

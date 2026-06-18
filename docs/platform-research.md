@@ -11,8 +11,8 @@ Research and selection of the optimal static site platform for the Home Improvem
 
 ## Platform Options Analysis
 
-### 1. Netlify + Static Site Generator
-**Platform:** Netlify + Jekyll/Hugo/React/Next.js
+### 1. Vercel + Hugo (Current Choice)
+**Platform:** Vercel + Hugo
 
 #### Advantages
 - **Free Tier:** Generous limits (100GB bandwidth, 300 build minutes/month)
@@ -126,7 +126,7 @@ Research and selection of the optimal static site platform for the Home Improvem
 
 ## Platform Comparison Matrix
 
-| Feature | Netlify | Vercel | GitHub Pages | Cloudflare |
+|| Feature | Vercel (Deployed) | Netlify (Historical) | GitHub Pages | Cloudflare |
 |---------|---------|---------|--------------|------------|
 | **Free Tier** | 100GB bandwidth | 100GB bandwidth | Unlimited | Unlimited bandwidth |
 | **Build Minutes** | 300/month | 10/month | GitHub limits | 10/day |
@@ -156,22 +156,18 @@ Research and selection of the optimal static site platform for the Home Improvem
 
 ## Recommendation Analysis
 
-### Best Overall: Netlify
-**Why Netlify wins for Home Improvement & DIY:**
+### Best Overall: Vercel
+**Why Vercel wins for this site:**
 
-1. **Image Optimization:** Built-in optimization perfect for DIY content
-2. **Free Tier Generous:** 100GB bandwidth足够 for growing site
-3. **Form Handling:** Can collect user questions and project submissions
-4. **Analytics:** Built-in analytics to track content performance
-5. **CDN:** Fast global delivery for image-heavy content
-6. **GitHub Integration:** Perfect for automated content deployment
+1. **GitHub Integration:** Automatic deployments on push to `main`
+2. **Edge Network:** Fast global delivery for image-heavy content
+3. **Hugo Native Support:** Auto-detects Hugo projects from `package.json`
+4. **Image Optimization:** Built-in optimization for before/after photos
+5. **Sitemap Auto-Submit:** Handled via Vercel's native sitemap generation
+6. **Fast Builds:** Clean Hugo builds in under 1 second
 
-### Alternative: Vercel
-**Choose Vercel if:**
-- Want interactive features (project calculators)
-- Need advanced React capabilities
-- Prioritize developer experience
-- Have Next.js expertise
+### Alternative: Netlify (Historical)
+**Note:** This site was originally planned for Netlify but is now deployed on Vercel.
 
 ### Budget Option: GitHub Pages
 **Choose GitHub Pages if:**
@@ -182,31 +178,25 @@ Research and selection of the optimal static site platform for the Home Improvem
 
 ## Final Recommendation
 
-### Primary Choice: **Netlify**
-- **Best for:** Home improvement visual content
-- **Free Tier:** 100GB bandwidth, 300 build minutes
-- **Key Features:** Image optimization, forms, analytics
-- **Integration:** Perfect GitHub + OpenClaw workflow
-- **Cost:** $0/month initially
+### Deployed Platform: **Vercel**
+- **Hosting:** Vercel (auto-deploys from GitHub `main` branch)
+- **Build Tool:** Hugo static site generator
+- **Build Command:** `hugo --gc --minify`
+- **Output Directory:** `public`
 
-### Setup Plan
-1. **Register:** Netlify account (connect to GitHub)
-2. **Configure:** GitHub repository for content
-3. **Setup:** Static site generator (Jekyll or Hugo)
-4. **Configure:** Image optimization and caching
-5. **Test:** Deploy first sample content
-6. **Integrate:** OpenClaw subagent deployment workflow
+### Setup (Already Complete)
+1. ✅ Vercel project connected to `New-Plains-LLC/fix-build-grow` (branch: `main`)
+2. ✅ Hugo static site generator configured
+3. ✅ Auto-deploys on push to `main`
 
-## Next Steps
-1. **Netlify Account Setup**
-2. **Repository Configuration**
-3. **Static Site Generator Selection**
-4. **Template Development**
-5. **Content Pipeline Setup**
-6. **OpenClaw Integration**
+## Next Steps (Historical — Platform Is Deployed)
+1. ✅ Repository configured and connected to Vercel
+2. ✅ Hugo static site generator operational
+3. ✅ Templates deployed
+4. ✅ Content pipeline (cron-based blog posts) running
 
 ---
 
-*Last Updated: 2026-04-18*  
-*Platform Research Phase: In Progress*  
-**Next Action:** Begin Netlify setup and configuration
+*Last Updated: 2026-06-17*  
+*Platform: Vercel (migrated from Netlify)*  
+**Status:** ✅ Deployed and operational

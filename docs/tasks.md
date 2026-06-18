@@ -14,10 +14,10 @@
 
 ### 1.2 Platform Selection & Setup ✅ COMPLETED
 - [x] **Task:** Choose modern static site platform with GitHub integration
-- [x] **Platform Selection:** Netlify + Hugo static site generator
+- [x] **Platform Selection:** Vercel + Hugo static site generator
 - [x] **Repository Created:** https://github.com/New-Plains-LLC/fix-build-grow
 - [x] **Templates Built:** Visual-friendly templates for tutorials, galleries, estimators, comparisons
-- [x] **Configuration:** Netlify config, Hugo setup, GitHub Actions workflow
+- [x] **Configuration:** Vercel config, Hugo setup, GitHub Actions workflow
 - [x] **Niche Considerations:** Home Improvement content benefits from visual presentation and fast load times
 - [x] **Deliverable:** Complete Hugo-based static site platform
 - [x] **Success Criteria:** Live website with GitHub-based content management
@@ -25,7 +25,7 @@
 - [x] **Status:** ✅ Completed
 - [x] **Owner:** Buddy (subagent)
 - [x] **Priority:** High
-- [x] **Next Step:** Domain registration and Netlify import
+- [x] **Next Step:** Domain connected to Vercel — auto-deploys from `main`
 
 ### 1.3 Domain & Branding 🔄 IN PROGRESS
 - [ ] **Task:** Register domain and establish branding
@@ -35,13 +35,13 @@
   - **Backup:** BuildGrowHome.com (broader brand umbrella)
 - [ ] **Domain Research:** SEO-optimized, GEO-targeted, brandable names identified
 - [x] **Domain Selected:** `firsthomefix.com` is the chosen domain for this project/site
-- [ ] **Deliverable:** Registered domain with Netlify integration
+- [ ] **Deliverable:** Registered domain with Vercel integration
 - [ ] **Success Criteria:** Professional-looking website with consistent branding
 - [ ] **Time:** 1 day
 - [ ] **Status:** 🔄 In Progress
 - [ ] **Owner:** Shawn
 - [ ] **Priority:** High
-- [ ] **Next Step:** Point `firsthomefix.com` to Netlify and complete SSL setup
+- [ ] **Next Step:** `firsthomefix.com` is live on Vercel with SSL
 
 ## Phase 2: Content Strategy & Subagent Setup (Week 2)
 
@@ -144,7 +144,7 @@
 
 ### 4.1 Analytics Setup
 - [ ] **Task:** Implement comprehensive analytics
-- [ ] **Tools:** Google Analytics, Google Search Console, Netlify Analytics
+- [ ] **Tools:** Google Analytics, Google Search Console, Vercel Analytics
 - [ ] **Deliverable:** Analytics dashboard setup
 - [ ] **Success Criteria:** Complete visibility into traffic sources and revenue
 - [ ] **Time:** 2 days

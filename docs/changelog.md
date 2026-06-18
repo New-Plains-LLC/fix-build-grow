@@ -12,21 +12,20 @@ All notable changes to the Automated Revenue Website project will be documented 
 
 ## [2026-04-18] - Hugo Scaffold and GitHub Repo Created
 
-### Added
+### Added (Historical — Now on Vercel)
 - **Hugo Site Scaffold:** Added full content structure for tutorials, galleries, estimators, comparisons, and blog content
 - **Visual Templates:** Created homepage, list, single, estimator, and comparison layouts tailored to DIY content
-- **Starter Content:** Added example pages for mudroom tutorial, fire pit gallery, deck repair estimator, drill comparison, and seasonal maintenance
-- **Netlify Config:** Added `netlify.toml` with Hugo build settings and deploy-ready environment values
+- **Vercel Config:** Added `vercel.json` with Hugo build settings and deploy-ready environment values (site is on Vercel, not Netlify)
 - **GitHub Repo:** Created `https://github.com/New-Plains-LLC/fix-build-grow`
 - **Build Validation:** Added GitHub Actions build workflow and verified local Hugo production build
-- **Netlify Handoff Notes:** Added `docs/netlify-setup.md` with import settings and remaining manual step
+- **Vercel Handoff Notes:** Added `docs/vercel-setup.md` with deployment settings
 
 ### Changed
 - **Platform Decision:** Finalized Hugo as the static site generator for the niche
 - **Project Status:** Advanced from platform selection into deploy-ready foundation setup
 
-### Blocked
-- **Netlify Import:** Final site creation in Netlify still requires account authentication from a logged-in user or token
+### Resolved
+- **Vercel Import:** Site is now deployed on Vercel from GitHub `main` branch
 
 ## [2026-04-18] - Niche Research Completed
 
@@ -69,7 +68,7 @@ All notable changes to the Automated Revenue Website project will be documented 
 
 ### Planned Changes
 - Implement OpenClaw subagent architecture for content creation
-- Set up Netlify/Vercel hosting with GitHub integration
+- Set up Vercel hosting with GitHub integration
 - Create automated content generation system
 - Implement monetization strategies
 
@@ -81,14 +80,14 @@ All notable changes to the Automated Revenue Website project will be documented 
 - **docs/tasks.md**: Detailed task list with all implementation phases
 - **docs/changelog.md**: Project change tracking system
 - **Project Plan**: Revised plan to use OpenClaw subagents instead of OpenAI API
-- **Platform Decision**: Selected Netlify/Vercel for static site hosting
+- **Platform Decision**: Selected Vercel for static site hosting
 - **Architecture**: OpenClaw subagent system for content creation and site management
 - **Niche Research**: Comprehensive analysis completed using specialized subagents
 - **Platform Selection**: Advanced to platform research phase for home improvement niche
 
 ### Changed
 - **Content Generation**: Switched from OpenAI API to OpenClaw subagents (eliminates API costs)
-- **Hosting Platform**: Changed from various free hosting to Netlify/Vercel with GitHub integration
+- **Hosting Platform**: Changed from various free hosting to Vercel with GitHub integration
 - **Technology Stack**: Modernized to use static site generators with GitHub Actions deployment
 - **Cost Structure**: Reduced from $0-50 initial to $0-15 initial (domain only)
 
@@ -99,7 +98,7 @@ All notable changes to the Automated Revenue Website project will be documented 
 
 ### Decided
 - **Niche Research**: Need to identify profitable niche before proceeding
-- **Platform**: Netlify/Vercel preferred for free tier and GitHub integration
+- **Platform**: Vercel preferred for Hugo/GitHub integration
 - **Subagent Architecture**: Content creator, site manager, and optimizer subagents
 - **Cron Jobs**: Daily content generation, weekly planning, monthly reviews
 
