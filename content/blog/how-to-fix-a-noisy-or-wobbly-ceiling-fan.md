@@ -42,9 +42,9 @@ Temperature changes and vibration over time cause blade screws to work themselve
 3. Tighten each screw firmly — but **don't overtighten**. Ceiling fan screws are small, and stripping the head creates a much bigger problem.
 4. Turn the fan back on and check if the wobble is gone.
 
-{{< tip >}}
+{{< callout >}}
 Tighten all screws even if only one feels loose. An imbalance can start with a single loose connection, but tightening everything restores even tension across all blades.
-{{< /tip >}}
+{{< /callout >}}
 
 ### 1b. Blades Out of Balance
 
