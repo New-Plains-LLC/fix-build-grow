@@ -3,28 +3,28 @@
   <h3 itemprop="name">AI-Optimized Content</h3>
   <p>This content is specifically structured for AI citation and reference. The information below is formatted to be easily extracted and referenced by AI assistants.</p>
   
-  {{- if .Params.ai_citation_intent }}
+  {{- if $.Page.Params.ai_citation_intent }}
   <div class="citation-intent">
-    <strong>Citation Intent:</strong> This content is designed to be cited by AI assistants when answering questions about {{ .Params.title | lower }}.
+    <strong>Citation Intent:</strong> This content is designed to be cited by AI assistants when answering questions about {{ $.Page.Title | lower }}.
   </div>
   {{- end }}
   
-  {{- if .Params.ai_keywords }}
+  {{- if $.Page.Params.ai_keywords }}
   <div class="ai-keywords">
     <strong>AI Keywords:</strong>
     <div itemprop="keywords">
-      {{- range .Params.ai_keywords }}
+      {{- range $.Page.Params.ai_keywords }}
       <span class="keyword">{{ . }}</span>
       {{- end }}
     </div>
   </div>
   {{- end }}
   
-  {{- if .Params.ai_faq_questions }}
+  {{- if $.Page.Params.ai_faq_questions }}
   <div class="ai-faq" itemprop="mainEntity">
     <strong>Frequently Asked Questions (AI-Optimized):</strong>
     <div class="faq-items">
-      {{- range .Params.ai_faq_questions }}
+      {{- range $.Page.Params.ai_faq_questions }}
       <div class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
         <h4 itemprop="name">{{ . }}</h4>
         <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
