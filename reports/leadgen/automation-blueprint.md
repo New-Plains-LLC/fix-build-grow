@@ -17,6 +17,24 @@ City/service page -> call/form -> n8n -> lead score -> contractor match -> weekl
 - Generated pages live under `content/lead-gen/<service>/<city>-ok.md`.
 - Reports live under `reports/leadgen/`.
 
+## Current live intake
+
+Production webhook:
+
+```text
+POST https://n8n.newplains.cloud/webhook/firsthomefix-lead
+```
+
+n8n workflow:
+
+```text
+FirstHomeFix - Lead Intake Webhook
+ID: 4M7dKnMPtntBPqAN
+Status: active
+```
+
+The workflow scores each lead, stores the latest 500 leads in n8n workflow static data, and returns an HTML confirmation page to the homeowner. No outbound email/SMS is sent automatically.
+
 ## n8n workflow to build next
 
 ### Trigger

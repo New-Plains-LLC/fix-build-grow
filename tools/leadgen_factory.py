@@ -205,9 +205,46 @@ DIY is reasonable when the job is inspection, cleaning, tightening, basic mainte
 
 ## Want help finding a local pro?
 
-FirstHomeFix is building a vetted local repair network for Oklahoma homeowners. If you want help with **{o.service_name.lower()} in {o.city}**, use the contact page and include your city, photos, and a short description of the issue.
+FirstHomeFix is building a vetted local repair network for Oklahoma homeowners. If you want help with **{o.service_name.lower()} in {o.city}**, send the repair details below. The form goes into the FirstHomeFix lead queue so the request can be scored and routed.
 
-[Request repair help](/contact/)
+<div class="contact-form-card card">
+  <div class="contact-form-body">
+    <div class="eyebrow">Local repair request</div>
+    <h2>Request help with {o.service_name.lower()} in {o.city}</h2>
+    <p class="lede">Describe the issue clearly. Photos are useful, but this first version only collects the essentials: contact info, city, service, and what is happening.</p>
+    <form name="firsthomefix-lead" class="contact-form" action="https://n8n.newplains.cloud/webhook/firsthomefix-lead" method="POST">
+      <input type="hidden" name="source" value="firsthomefix">
+      <input type="hidden" name="service" value="{o.service_name}">
+      <input type="hidden" name="city" value="{o.city}">
+      <input type="hidden" name="state" value="{o.state}">
+      <input type="hidden" name="page_url" value="https://firsthomefix.com/lead-gen/{o.service_slug}/{o.city_slug}-{o.state.lower()}/">
+      <input type="text" name="website" tabindex="-1" autocomplete="off" class="contact-honeypot" aria-hidden="true">
+      <div class="contact-field-grid">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" required placeholder="Your name">
+        </label>
+        <label>
+          <span>Phone</span>
+          <input type="tel" name="phone" required placeholder="Best phone number">
+        </label>
+      </div>
+      <label>
+        <span>Email</span>
+        <input type="email" name="email" placeholder="you@example.com">
+      </label>
+      <label>
+        <span>What is happening?</span>
+        <textarea name="problem" rows="6" required placeholder="Example: The garage door starts closing, then reverses. One spring looks separated and the opener light blinks."></textarea>
+      </label>
+      <label class="contact-consent">
+        <input type="checkbox" name="consent" value="yes" required>
+        <span>I agree FirstHomeFix may review this request and contact me or route it to a local repair provider.</span>
+      </label>
+      <button class="button" type="submit">Send repair request</button>
+    </form>
+  </div>
+</div>
 """
     return body
 

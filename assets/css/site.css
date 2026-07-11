@@ -338,6 +338,9 @@ th, td { padding:.85rem 1rem; border-bottom:1px solid var(--border); text-align:
   border-color: rgba(197,106,45,.4);
 }
 .contact-honeypot { position:absolute; left:-9999px; opacity:0; pointer-events:none; }
+.contact-form .contact-consent { display:flex; align-items:flex-start; gap:.65rem; font-weight:500; }
+.contact-form .contact-consent input { width:auto; margin-top:.25rem; flex:0 0 auto; }
+.contact-form .contact-consent span { color: var(--muted); }
 .contact-sidebar { display:grid; gap:1rem; }
 .contact-note-card { background: linear-gradient(180deg, #fffaf3 0%, #f5efe5 100%); }
 @media (prefers-reduced-motion: reduce) {
