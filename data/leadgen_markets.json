@@ -1,0 +1,20 @@
+{
+  "metros": [
+    {"city": "Oklahoma City", "state": "OK", "population_score": 10, "home_age_score": 8, "affluence_score": 7, "competition_score": 8},
+    {"city": "Edmond", "state": "OK", "population_score": 7, "home_age_score": 6, "affluence_score": 9, "competition_score": 7},
+    {"city": "Norman", "state": "OK", "population_score": 7, "home_age_score": 7, "affluence_score": 6, "competition_score": 7},
+    {"city": "Moore", "state": "OK", "population_score": 6, "home_age_score": 7, "affluence_score": 6, "competition_score": 6},
+    {"city": "Yukon", "state": "OK", "population_score": 5, "home_age_score": 6, "affluence_score": 7, "competition_score": 6},
+    {"city": "Mustang", "state": "OK", "population_score": 5, "home_age_score": 5, "affluence_score": 7, "competition_score": 6},
+    {"city": "Chickasha", "state": "OK", "population_score": 3, "home_age_score": 8, "affluence_score": 4, "competition_score": 4},
+    {"city": "Tuttle", "state": "OK", "population_score": 3, "home_age_score": 5, "affluence_score": 6, "competition_score": 4}
+  ],
+  "services": [
+    {"slug": "garage-door-repair", "name": "Garage Door Repair", "urgency_score": 9, "ticket_score": 6, "repeat_score": 4, "diy_risk_score": 8, "buyer_demand_score": 8, "lead_value": 75, "example_jobs": ["broken spring", "door will not close", "opener replacement", "off-track door"]},
+    {"slug": "water-heater-repair", "name": "Water Heater Repair", "urgency_score": 9, "ticket_score": 7, "repeat_score": 3, "diy_risk_score": 7, "buyer_demand_score": 8, "lead_value": 90, "example_jobs": ["no hot water", "leaking tank", "pilot light issues", "replacement quote"]},
+    {"slug": "tree-removal", "name": "Tree Removal", "urgency_score": 8, "ticket_score": 9, "repeat_score": 2, "diy_risk_score": 10, "buyer_demand_score": 7, "lead_value": 125, "example_jobs": ["storm damage", "dangerous limb", "full removal", "stump grinding"]},
+    {"slug": "foundation-repair", "name": "Foundation Repair", "urgency_score": 7, "ticket_score": 10, "repeat_score": 1, "diy_risk_score": 10, "buyer_demand_score": 7, "lead_value": 175, "example_jobs": ["cracks", "settling", "pier estimate", "drainage issue"]},
+    {"slug": "concrete-repair", "name": "Concrete Repair", "urgency_score": 5, "ticket_score": 7, "repeat_score": 3, "diy_risk_score": 6, "buyer_demand_score": 6, "lead_value": 85, "example_jobs": ["driveway repair", "patio slab", "sidewalk trip hazard", "crack repair"]},
+    {"slug": "septic-repair", "name": "Septic Repair", "urgency_score": 10, "ticket_score": 9, "repeat_score": 3, "diy_risk_score": 10, "buyer_demand_score": 6, "lead_value": 150, "example_jobs": ["backup", "field line issue", "pump out", "system inspection"]}
+  ]
+}

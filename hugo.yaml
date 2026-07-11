@@ -48,6 +48,9 @@ menu:
     - name: "Blog"
       pageRef: "/blog"
       weight: 50
+    - name: "Local Repair Help"
+      pageRef: "/lead-gen"
+      weight: 55
     - name: "Contact"
       pageRef: "/contact"
       weight: 60
