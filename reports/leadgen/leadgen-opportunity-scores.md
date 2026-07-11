@@ -1,33 +1,39 @@
-# FirstHomeFix Lead-Gen Opportunity Scores
+# Lead-Gen Opportunity Scores (Luke Vander Framework)
 
-Generated: 2026-07-10
+Generated: 2026-07-11
 
-Scoring favors urgent, high-ticket, contractor-buyable jobs in Oklahoma metros where firsthomefix can publish city/service pages and route quote requests.
+Scoring blends: niche sweet spot (high ticket × reachable owner), 
+competition weakness (maps & organic), city fit (60k-500k ideal), affluence, home age.
 
-| Rank | Service | City | Score | Lead value | Est. monthly value |
-|---:|---|---|---:|---:|---:|
-| 1 | Septic Repair | Oklahoma City, OK | 71.0 | $150 | $2100 |
-| 2 | Tree Removal | Oklahoma City, OK | 69.1 | $125 | $1750 |
-| 3 | Foundation Repair | Oklahoma City, OK | 68.6 | $175 | $2450 |
-| 4 | Septic Repair | Edmond, OK | 67.1 | $150 | $1950 |
-| 5 | Garage Door Repair | Oklahoma City, OK | 66.3 | $75 | $975 |
-| 6 | Water Heater Repair | Oklahoma City, OK | 66.1 | $90 | $1170 |
-| 7 | Septic Repair | Norman, OK | 65.8 | $150 | $1950 |
-| 8 | Septic Repair | Moore, OK | 65.3 | $150 | $1950 |
-| 9 | Tree Removal | Edmond, OK | 65.2 | $125 | $1625 |
-| 10 | Foundation Repair | Edmond, OK | 64.7 | $175 | $2275 |
-| 11 | Tree Removal | Norman, OK | 63.9 | $125 | $1625 |
-| 12 | Septic Repair | Yukon, OK | 63.6 | $150 | $1950 |
-| 13 | Foundation Repair | Norman, OK | 63.4 | $175 | $2275 |
-| 14 | Tree Removal | Moore, OK | 63.4 | $125 | $1625 |
-| 15 | Foundation Repair | Moore, OK | 62.9 | $175 | $2275 |
-| 16 | Septic Repair | Mustang, OK | 62.5 | $150 | $1800 |
-| 17 | Septic Repair | Chickasha, OK | 62.4 | $150 | $1800 |
-| 18 | Garage Door Repair | Edmond, OK | 62.4 | $75 | $900 |
-| 19 | Water Heater Repair | Edmond, OK | 62.2 | $90 | $1080 |
-| 20 | Tree Removal | Yukon, OK | 61.7 | $125 | $1500 |
-| 21 | Foundation Repair | Yukon, OK | 61.2 | $175 | $2100 |
-| 22 | Garage Door Repair | Norman, OK | 61.1 | $75 | $900 |
-| 23 | Water Heater Repair | Norman, OK | 60.9 | $90 | $1080 |
-| 24 | Septic Repair | Tuttle, OK | 60.7 | $150 | $1800 |
-| 25 | Tree Removal | Mustang, OK | 60.6 | $125 | $1500 |
+| Rank | Service | City | Score | Niche Sweet | Comp Field | Est Rental | Owner | Ticket | Verdict |
+|---:|---|---:|---:|---:|---:|---:|---:|---:|
+| 1 | Foundation Repair | Moore | 239.8 | 625.0 | 5 | $6250 | 6 | $1500 | vet this |
+| 2 | Foundation Repair | Edmond | 238.8 | 625.0 | 5 | $6250 | 6 | $1500 | vet this |
+| 3 | Foundation Repair | Yukon | 238.7 | 625.0 | 5 | $6250 | 6 | $1500 | vet this |
+| 4 | Foundation Repair | Mustang | 238.6 | 625.0 | 5 | $6250 | 6 | $1500 | vet this |
+| 5 | Foundation Repair | Norman | 238.1 | 625.0 | 5 | $6250 | 6 | $1500 | vet this |
+| 6 | Foundation Repair | Tuttle | 236.9 | 625.0 | 5 | $6250 | 6 | $1500 | vet this |
+| 7 | Foundation Repair | Chickasha | 236.7 | 625.0 | 5 | $6250 | 6 | $1500 | vet this |
+| 8 | Foundation Repair | Oklahoma City | 234.4 | 625.0 | 5 | $6250 | 6 | $1500 | vet this |
+| 9 | Septic Repair | Moore | 130.6 | 312.4 | 5 | $3123 | 8 | $700 | vet this |
+| 10 | Septic Repair | Edmond | 129.7 | 312.4 | 5 | $3123 | 8 | $700 | vet this |
+| 11 | Septic Repair | Yukon | 129.6 | 312.4 | 5 | $3123 | 8 | $700 | vet this |
+| 12 | Septic Repair | Mustang | 129.4 | 312.4 | 5 | $3123 | 8 | $700 | vet this |
+| 13 | Septic Repair | Norman | 128.9 | 312.4 | 5 | $3123 | 8 | $700 | vet this |
+| 14 | Septic Repair | Tuttle | 127.7 | 312.4 | 5 | $3123 | 8 | $700 | vet this |
+| 15 | Septic Repair | Chickasha | 127.6 | 312.4 | 5 | $3123 | 8 | $700 | vet this |
+| 16 | Septic Repair | Oklahoma City | 125.3 | 312.4 | 5 | $3123 | 8 | $700 | vet this |
+| 17 | Tree Removal | Moore | 105.3 | 234.6 | 6 | $2346 | 9 | $500 | vet this |
+| 18 | Tree Removal | Edmond | 104.3 | 234.6 | 6 | $2346 | 9 | $500 | vet this |
+| 19 | Tree Removal | Yukon | 104.2 | 234.6 | 6 | $2346 | 9 | $500 | vet this |
+| 20 | Tree Removal | Mustang | 104.1 | 234.6 | 6 | $2346 | 9 | $500 | vet this |
+| 21 | Tree Removal | Norman | 103.6 | 234.6 | 6 | $2346 | 9 | $500 | vet this |
+| 22 | Tree Removal | Tuttle | 102.4 | 234.6 | 6 | $2346 | 9 | $500 | vet this |
+| 23 | Tree Removal | Chickasha | 102.2 | 234.6 | 6 | $2346 | 9 | $500 | vet this |
+| 24 | Tree Removal | Oklahoma City | 99.9 | 234.6 | 6 | $2346 | 9 | $500 | vet this |
+| 25 | Water Heater Repair | Moore | 85.6 | 183.6 | 5 | $1836 | 5 | $400 | vet this |
+| 26 | Water Heater Repair | Edmond | 84.6 | 183.6 | 5 | $1836 | 5 | $400 | vet this |
+| 27 | Water Heater Repair | Yukon | 84.5 | 183.6 | 5 | $1836 | 5 | $400 | vet this |
+| 28 | Water Heater Repair | Mustang | 84.4 | 183.6 | 5 | $1836 | 5 | $400 | vet this |
+| 29 | Water Heater Repair | Norman | 83.9 | 183.6 | 5 | $1836 | 5 | $400 | vet this |
+| 30 | Water Heater Repair | Tuttle | 82.7 | 183.6 | 5 | $1836 | 5 | $400 | vet this |
