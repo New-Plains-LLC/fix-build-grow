@@ -1,0 +1,146 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <h1>Foundation Repair in {{ site.Params.city }}, OK</h1>
+    <p class="lede">{{ site.Params.description }}</p>
+    <div class="button-row">
+      <a href="/contact/" class="button accent">Get a Free Quote</a>
+      <a href="/services/" class="button secondary">View Our Services</a>
+    </div>
+  </div>
+</section>
+
+<section class="section stats-grid" style="margin-top:-1rem;padding-top:0;">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">15+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">500+</div>
+        <div class="stat-label">Homes Repaired</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">{{ site.Params.city }}</div>
+        <div class="stat-label">Local Service Area</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <h2>Our Foundation Repair Services</h2>
+      <p>Expert solutions for {{ site.Params.city }} homes — from minor cracks to major structural repairs.</p>
+    </div>
+    <div class="service-grid">
+      {{ $servicePages := where .Site.RegularPages "Section" "services" }}
+      {{ range $servicePages }}
+      <a href="{{ .RelPermalink }}" class="service-card">
+        <div class="service-icon">{{ with .Params.icon }}{{ . }}{{ else }}🔧{{ end }}</div>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Summary | default .Description }}</p>
+        <span style="color:var(--brand);font-weight:600;font-size:.9rem;">Learn more →</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Why Choose {{ site.Title }}?</h2>
+    </div>
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="service-icon">✓</div>
+        <h3>Licensed & Insured</h3>
+        <p>Fully licensed and insured foundation repair contractors serving {{ site.Params.city }} and surrounding areas.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">✓</div>
+        <h3>Free Inspections</h3>
+        <p>We provide thorough foundation inspections and written estimates — no obligation, no pressure.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">✓</div>
+        <h3>Warrantied Work</h3>
+        <p>Every repair comes with a transferable warranty. We stand behind our work for the long haul.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="lead-section">
+  <div class="container">
+    <h2>Get Your Free Foundation Repair Quote</h2>
+    <p class="lede">Describe your issue and we'll connect you with a local foundation repair specialist in {{ site.Params.city }}.</p>
+
+    <form class="lead-form" action="{{ site.Params.leadWebhook }}" method="POST">
+      <input type="hidden" name="source" value="{{ site.Params.leadSource }}">
+      <input type="hidden" name="service" value="{{ site.Params.service }}">
+      <input type="hidden" name="city" value="{{ site.Params.city }}">
+      <div class="lead-form-row">
+        <input type="text" name="name" required placeholder="Your name">
+        <input type="tel" name="phone" required placeholder="Phone number">
+      </div>
+      <input type="email" name="email" placeholder="Email (optional)">
+      <select name="issue" required>
+        <option value="">What issue are you having?</option>
+        <option value="cracks">Foundation cracks</option>
+        <option value="settling">Foundation settling / sinking</option>
+        <option value="pier-beam">Pier and beam issues</option>
+        <option value="drainage">Drainage problems</option>
+        <option value="basement">Basement / crawlspace water</option>
+        <option value="other">Not sure / other</option>
+      </select>
+      <textarea name="problem" rows="4" placeholder="Describe the problem in detail..."></textarea>
+      <div class="consent-row">
+        <input type="checkbox" name="consent" value="yes" required id="consent">
+        <label for="consent">I consent to being contacted about this request.</label>
+      </div>
+      <button type="submit" class="button accent">Send Request →</button>
+    </form>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Signs You Need Foundation Repair</h2>
+    </div>
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>Cracks in Walls</h3>
+        <p>Hairline to wide cracks in drywall, brick, or block walls — especially around doors and windows.</p>
+      </div>
+      <div class="service-card">
+        <h3>Sticking Doors & Windows</h3>
+        <p>Doors and windows that stick or won't close properly often indicate foundation movement.</p>
+      </div>
+      <div class="service-card">
+        <h3>Uneven Floors</h3>
+        <p>Sloping, sagging, or bouncy floors can signal serious foundation issues underneath.</p>
+      </div>
+      <div class="service-card">
+        <h3>Gaps Around Exterior</h3>
+        <p>Visible gaps between your foundation wall and the soil, or between brick mortar joints.</p>
+      </div>
+      <div class="service-card">
+        <h3>Chimney Tilting</h3>
+        <p>A chimney pulling away from the house or leaning is a red flag for foundation problems.</p>
+      </div>
+      <div class="service-card">
+        <h3>Basement Water</h3>
+        <p>Water intrusion through foundation cracks or walls can worsen structural damage over time.</p>
+      </div>
+    </div>
+    <div class="text-center mt-2">
+      <a href="/contact/" class="button">Get Your Free Inspection →</a>
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,43 @@
+baseURL: "https://moorefoundationrepair.com/"
+languageCode: "en-us"
+title: "Moore Foundation Repair"
+enableRobotsTXT: true
+timezone: "America/Chicago"
+summaryLength: 24
+
+params:
+  description: "Professional foundation repair services in Moore, OK. Specializing in crack repair, foundation leveling, pier and beam repair, and drainage solutions."
+  brand:
+    name: "Moore Foundation Repair"
+    tagline: "Moore, OK foundation repair specialists"
+  city: "Moore"
+  state: "OK"
+  phone: "(405) 555-0100"
+  service: "Foundation Repair"
+  leadWebhook: "https://n8n.newplains.cloud/webhook/firsthomefix-lead"
+  leadSource: "moorefoundationrepair"
+
+menu:
+  main:
+    - name: "Home"
+      pageRef: "/"
+      weight: 10
+    - name: "Services"
+      pageRef: "/services"
+      weight: 20
+    - name: "Get a Quote"
+      pageRef: "/contact"
+      weight: 30
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    endLevel: 3
+    startLevel: 2
+
+outputs:
+  home:
+    - HTML
+    - RSS

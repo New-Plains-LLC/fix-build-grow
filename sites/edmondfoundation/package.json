@@ -1,0 +1,12 @@
+{
+  "name": "edmondfoundationrepair",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo --gc --minify"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.149.2"
+  }
+}

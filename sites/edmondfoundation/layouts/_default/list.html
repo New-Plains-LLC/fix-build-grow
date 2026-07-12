@@ -1,0 +1,18 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <h1 style="margin:0 0 1rem;">{{ .Title }}</h1>
+    <p style="color:var(--muted);max-width:60ch;margin:0 0 2.5rem;">{{ .Description }}</p>
+    <div class="service-grid">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="service-card">
+        <div class="service-icon">{{ with .Params.icon }}{{ . }}{{ else }}🔧{{ end }}</div>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Summary | default .Description }}</p>
+        <span style="color:var(--brand);font-weight:600;font-size:.9rem;">Learn more →</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
