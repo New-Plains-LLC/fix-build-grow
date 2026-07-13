@@ -124,6 +124,33 @@ img { max-width: 100%; display: block; }
 .lead-form .button { width:100%; padding:1rem; font-size:1.1rem; margin-top:.5rem; }
 .lead-form .button.accent:hover { box-shadow: 0 6px 28px rgba(196,112,42,.35); }
 
+/* Lead form on light backgrounds (contact page) */
+.section .lead-form input,
+.section .lead-form textarea,
+.section .lead-form select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+.section .lead-form input::placeholder,
+.section .lead-form textarea::placeholder {
+  color: var(--muted);
+}
+.section .lead-form input:focus,
+.section .lead-form textarea:focus,
+.section .lead-form select:focus {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  background: var(--surface);
+  box-shadow: 0 0 0 4px var(--brand-light);
+}
+.section .lead-form select {
+  background: var(--surface);
+  color: var(--text);
+}
+.section .lead-form .consent-row { opacity: 1; }
+.section .lead-form .consent-row label { color: var(--muted); }
+
 /* ── Service Detail Pages ── */
 .service-detail { padding: 2rem 0 3rem; }
 .service-detail-layout { display:grid; grid-template-columns: 1.5fr 1fr; gap:2rem; align-items:start; }
