@@ -42,10 +42,33 @@ img { max-width: 100%; display: block; }
 .nav-open .hamburger-inner::after { top:0; transform:rotate(-90deg); }
 @media (max-width: 767px) {
   .hamburger { display: flex; }
-  .nav-links { position:fixed; inset:0; top:64px; z-index:40; flex-direction:column; align-items:stretch; gap:0; padding:1rem 1.5rem; background:var(--surface); transform:translateX(100%); transition:transform .25s ease; overflow-y:auto; }
-  .nav-open .nav-links { transform:translateX(0); }
-  .nav-links a { display:flex; align-items:center; min-height:48px; padding:.75rem 0; font-size:1.1rem; border-bottom:1px solid var(--border); }
-  .nav-links .nav-cta { margin-top:.5rem; text-align:center; }
+  .nav-links {
+    position: fixed;
+    inset: 0;
+    top: 72px;
+    z-index: 40;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 1rem 1.5rem 2rem;
+    background: var(--surface);
+    transform: translateX(100%);
+    transition: transform .25s ease;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
+  .nav-open .nav-links { transform: translateX(0); }
+  body.nav-open { overflow: hidden; }
+  .nav-links a {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    padding: .75rem 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-links .nav-cta { margin-top:.5rem; text-align:center; border-bottom: none; }
 }
 
 /* ── Hero ── */
