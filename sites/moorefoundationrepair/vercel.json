@@ -1,0 +1,12 @@
+{
+  "framework": "hugo",
+  "buildCommand": "npx hugo --gc --minify",
+  "outputDirectory": "public",
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.164.0",
+      "HUGO_ENV": "production",
+      "HUGO_ENABLEGITINFO": "true"
+    }
+  }
+}
