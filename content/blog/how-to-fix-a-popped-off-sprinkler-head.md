@@ -1,6 +1,6 @@
 ---
 title: "How to Fix a Popped-Off Sprinkler Head — Straighten, Seal, and Stop the Geyser"
-date: 2026-10-04
+date: 2026-09-27
 draft: false
 description: "Step-by-step guide to fixing a pop-up sprinkler head that snapped off or sprays wildly — dig it out, swap the head or fitting, and get even coverage without flooding your yard."
 summary: "Fix a broken or leaking pop-up lawn sprinkler head yourself in under an hour with a shovel, PVC fittings, and a quiet morning when the system is off."
